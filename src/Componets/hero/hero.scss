@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: calc(100vh - 100px);
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132);
     padding-top: 100px;
@@ -34,7 +34,10 @@
                     border: 1px solid white;
                     border-radius: 10px;
                     background-color: transparent;
+                    margin-right: 20px;   
                     color: white;
+                    cursor: pointer;
+                    font-weight: 300;
                 }
             }
 
@@ -51,5 +54,15 @@
         object-fit: contain;
         top: 100px;
         right: 0;
+    }
+
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 45vh;
+        bottom: -120px;
+        white-space: nowrap;
+        color: #ffffff09;
+        font-weight: bold;
+        width: 50%;
     }
 }
