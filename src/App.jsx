@@ -4,6 +4,7 @@ import  Test  from "./Test";
 import { Hero } from "./Componets/hero/Hero";
 import { Parallax } from "./Componets/parallax/Parallax";
 import { Services } from "./Componets/services/Services";
+import { Portfolio } from "./Componets/Portfoilio/Portfolio";
 
 
 const App = () => {
@@ -15,9 +16,7 @@ const App = () => {
     <section id="Services"><Parallax type="services"/></section>
     <section><Services/></section>
     <section id="Portfolio"><Parallax type="Services"/></section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
+    <Portfolio/>
     <section id="Contact">Contact</section>
     {/* <Test/> */}
   </div>;

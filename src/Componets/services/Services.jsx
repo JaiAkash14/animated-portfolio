@@ -27,7 +27,7 @@ export const Services = () => {
         <motion.div className="services"
             variants={variants}
             initial="initial"
-            // whileInView="animate"
+           
             ref={ref}
             animate={isInView && "animate"}
             >
