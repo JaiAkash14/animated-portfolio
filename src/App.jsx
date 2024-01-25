@@ -5,10 +5,13 @@ import { Hero } from "./Componets/hero/Hero";
 import { Parallax } from "./Componets/parallax/Parallax";
 import { Services } from "./Componets/services/Services";
 import { Portfolio } from "./Componets/Portfoilio/Portfolio";
+import { Contact } from "./Componets/Contact/Contact";
+import { Cursor } from "./Componets/Cursor/Cursor";
 
 
 const App = () => {
   return <div>
+    <Cursor/>
     <section id="Homepage">
      <Navbar/>
      <Hero/>
@@ -17,8 +20,8 @@ const App = () => {
     <section><Services/></section>
     <section id="Portfolio"><Parallax type="Services"/></section>
     <Portfolio/>
-    <section id="Contact">Contact</section>
-    {/* <Test/> */}
+    <section id="Contact"><Contact/></section>
+   
   </div>;
 };
 
