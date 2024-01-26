@@ -76,7 +76,7 @@ export const Contact = () => {
             });
     };
     return (
-        <motion.div
+        <div
             ref={ref} className="contact" variants={Variants} initial={"initial"} whileInView={"animate"}>
             <motion.div className="textContainer" variants={Variants}>
                 <motion.h1 variants={Variants}>Let's Work together</motion.h1>
@@ -159,6 +159,6 @@ export const Contact = () => {
                     Mail didn't go through, Please try again later
                 </Alert>
             </Snackbar>
-        </motion.div>
+        </div>
     )
 }

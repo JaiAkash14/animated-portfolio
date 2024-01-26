@@ -36,7 +36,7 @@ const Single = ({ item }) => {
         // offset:["start start","end start"]
     });
 
-    const y = useTransform(scrollYProgress, [0, 1], [-1000, 1000])
+    const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
 
 
     return <section >
@@ -77,7 +77,7 @@ export const Portfolio = () => {
 
             </div>
 
-            {items.map((item) => (
+            {items.map((item,inx) => (
                 <Single item={item} key={item.id} />
             ))}
 
