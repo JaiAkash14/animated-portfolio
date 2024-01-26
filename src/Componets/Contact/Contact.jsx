@@ -58,6 +58,10 @@ export const Contact = () => {
     const [success, setSucess] = useState(false)
     const isInView = useInView(ref, { margin: "-100px" })
 
+    const [width, setWidth] = useState(window.innerWidth);
+    const isMobile = width <= 768;
+
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -122,7 +126,7 @@ export const Contact = () => {
                 <motion.form
                     ref={formRef}
                     onSubmit={sendEmail}
-                    initial={{ opacity: 0 }}
+                    initial={{ opacity: isMobile ? 1 : 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ delay: 4, duration: 1 }}
                 >

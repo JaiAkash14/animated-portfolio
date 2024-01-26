@@ -4,7 +4,7 @@ import { useInView, motion } from "framer-motion"
 
 const variants = {
     initial: {
-        x: -500,
+        x: -200,
         y: 100,
         opacity: 0,
     },
@@ -29,7 +29,7 @@ export const Services = () => {
             initial="initial"
            
             ref={ref}
-            animate={isInView && "animate"}
+            animate={ isInView&& "animate"}
             >
             <motion.div className="textContainer" variants={variants}>
                 <p>I focus on helping your brand grow <br /> and move forward </p>
