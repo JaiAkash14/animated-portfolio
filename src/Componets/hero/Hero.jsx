@@ -47,7 +47,7 @@ export const Hero = () => {
     <div className="hero">
       <div className="wrapper">
         <motion.div className="textContainer" variants={textVarients} initial="initial" animate="animate">
-          <motion.h2 variants={textVarients}>JAI AKASH</motion.h2>
+          <motion.h2 variants={textVarients}>SANTHOSH SIVA</motion.h2>
           <motion.h1 variants={textVarients}>Web developer <br /> and UI designer</motion.h1>
           <motion.div  variants={textVarients}className="buttons">
             <motion.button variants={textVarients}>See the Latest Works</motion.button>

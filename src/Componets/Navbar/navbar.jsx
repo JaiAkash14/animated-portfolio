@@ -13,13 +13,13 @@ export const Navbar = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    Akash
+                    Santhosh Siva
                 </motion.span>
                 <div className="social">
                     <a href="#">
                         <img src="/facebook.png" alt="" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/msanthoshsiva/">
                         <img src="/instagram.png" alt="" />
                     </a>
                     <a href="#">
